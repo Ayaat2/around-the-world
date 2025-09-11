@@ -1,12 +1,61 @@
-# React + Vite
+# 🌍 Around the world
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **React**, **Tailwind CSS**, and **React Router**, that allows users to explore information about countries around the world.  
+The project uses the **REST Countries API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌐 **Browse all countries** with their flags, population, region, capital, and more.
+- 🔍 **Search** for a specific country by name (supports both English & Arabic).
+- 🗂️ **Filter by region** (Africa, Americas, Asia, Europe, Oceania).
+- 📄 **Detailed country page** including:
+  - Population
+  - Region / Subregion
+  - Capital
+  - Top Level Domain
+  - Currencies
+  - Languages
+- 🌓 **Dark/Light mode** support.
+- 📱 **Fully responsive**: works smoothly on mobile, tablet, and desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite setup)
+- **Tailwind CSS**
+- **React Router**
+- **React Select** (custom styled with Tailwind)
+- **REST Countries API** → [https://restcountries.com/](https://restcountries.com/)
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/your-username/countries-explorer.git
+   cd countries-explorer
+```
+2. Install dependencies:
+```
+npm install
+```
+3. Run the development server:
+```
+npm run dev
+```
+🌐 API Used
+
+The project fetches data from REST Countries API
+.
+Example endpoint:
+```
+https://restcountries.com/v3.1/all?
+```
+
+
+
+
